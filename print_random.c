@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "first.h"
 
 
-char randchar();
 int main()
 {
 	int a;
@@ -17,9 +17,4 @@ int main()
 	putchar('\n');
 
 	return(0);
-}
-
-char randchar(){
-    int num =  rand() % (90 - 65 + 1) + 65;
-    return (char)num;
 }
