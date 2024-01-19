@@ -20,7 +20,6 @@ int main()
 }
 
 char randchar(){
-    srand(time(NULL));
     int num =  rand() % (90 - 65 + 1) + 65;
     return (char)num;
 }
